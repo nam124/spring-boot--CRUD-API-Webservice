@@ -27,6 +27,7 @@ public class NewAPI {
    }
 
     //testgitdfsdffgdgdgdg
+    //test lan 2
    @PutMapping(value = "/new/{id}")
    public NewDTO updateNew(@RequestBody NewDTO model, @PathVariable("id") long id) {
 	   model.setId(id);
