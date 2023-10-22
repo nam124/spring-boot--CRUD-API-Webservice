@@ -25,7 +25,9 @@ public class NewAPI {
 	 */ public NewDTO createNew(@RequestBody /* chuyển dto thành json */ NewDTO model) {
       return newService.save(model);
    }
-   
+
+    //testgitdfsdffgdgdgdg
+   gdfg
    @PutMapping(value = "/new/{id}")
    public NewDTO updateNew(@RequestBody NewDTO model, @PathVariable("id") long id) {
 	   model.setId(id);
